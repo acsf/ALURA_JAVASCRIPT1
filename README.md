@@ -5,3 +5,4 @@ JavaScript : Programando na linguagem da web
 #Final do capitulo 4 - adicionado arquivos da aplicação IMC
 #Criação da lógica de calculo do IMC
 #Aula 5 - Funções e os cidadãos de primeira classe
+#Aula 6 - eventos
