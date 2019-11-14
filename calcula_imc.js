@@ -1,5 +1,7 @@
-  
-	var trPaciente = document.getElementsByClassName("paciente");
+var botao = document.getElementById("calcula-imcs");
+botao.addEventListener("click", function(){
+
+  	var trPaciente = document.getElementsByClassName("paciente");
 
 	percorreArray(trPaciente, function (pacienteTr){
 
@@ -28,7 +30,7 @@
 			var tdImc = pacienteTr.getElementsByClassName("info-imc")[0]; 
 
 			if (imc === undefined || imc ==0) {				                        
-				    tdImc.textContent = "Nao dividirás por zero!";
+				    tdImc.textContent = "Não dividirás por zero!";
 				 	}else{				                          
 				    tdImc.textContent = imc; 
 			    }
@@ -40,7 +42,8 @@
      
 		    console.log(imc);                    
 
-	});
+		});
 
+  });
    
               
